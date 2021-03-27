@@ -4,6 +4,6 @@ jdk:
     - openjdk16
 
 script:
-    mvn compile
-    mvn test
-    mvn package
+    - mvn compile
+    - mvn test
+    - mvn package
